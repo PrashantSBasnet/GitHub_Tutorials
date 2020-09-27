@@ -1,0 +1,82 @@
+git tutorial 
+
+//add origin
+git remote add origin ""
+git pull origin
+
+
+//creates local repository
+cd /Users/...
+git init 
+
+
+//linking local to master and feching to local
+git remote add origin "http://"
+git pull origin master 
+
+
+//add files initially to index to make changes in master
+git status
+git add nameofchangedfile.txt
+git commit -message
+git status 
+
+Git 
+//adding multiple files
+git add -A
+
+git commit -a -m "adding files"
+
+git log //shows details of commits
+
+
+//creating brach 
+git branch nameofbranch
+git checkout nameofbranch //switches to nameofbranch the branch
+git add -A 
+git commit -m ""
+
+
+//merging 
+git merge nameofbranch //nameofbranch to be merged to master
+
+
+//rebasing
+git rebase master //shows whether current branch is updated to master 
+
+git checkout master
+git rebase nameofbranch //works of this branch added to master
+
+
+
+//ssh for public
+ssh-keygen
+//y in the queries generated 
+
+cat /../paste generated
+
+//new ssh key via web github
+//copy and paste the key
+
+ssh-T git@github.com
+
+
+
+//pushing to master
+git checkout nameofbranch
+git push origin nameofbranch
+
+git checkout master
+git push origin master
+
+
+//revert 
+git commit -m "revert1.txt" 
+git commit -m "revert2.txt" 
+git commit -a -m "revert2.txt" 
+cat revert1.txt
+git log
+//copy first 8 digits of hexa 
+git checkout copiedhexa revert1.txt 
+
+cat revert1.txt //displays the rolled back version
