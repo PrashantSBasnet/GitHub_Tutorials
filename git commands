@@ -1,5 +1,34 @@
 git tutorial 
 
+//---------easy code to pull and push--------------//
+
+cd <drag and drop the folder on your computer>
+git init
+git pull "url on the remote repository i.e on github"
+git status
+git add . 
+git commit -m "changes made..."
+git status. -- everything's up to date msg
+git remote add origin "url on the remote repository i.e on github"
+git checkout -b main -- to commit in main branch
+git checkout main --alternate command
+git checkout origin master -- to commit in master branch
+git remote -v --displays pull and push commands in order
+git push -u origin master/main
+
+
+
+
+
+
+
+
+
+
+
+
+//--EDUREKA commands----//
+
 //add origin
 git remote add origin ""
 git pull origin
