@@ -8,7 +8,7 @@ git pull "url on the remote repository i.e on github"
 git status
 git add . 
 git commit -m "changes made..."
-git status. -- everything's up to date msg
+git status -- everything's up to date msg
 git remote add origin "url on the remote repository i.e on github"
 git checkout -b main -- to commit in main branch
 git checkout main --alternate command
