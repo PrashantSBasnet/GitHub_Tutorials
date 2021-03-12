@@ -1,7 +1,6 @@
 git tutorial 
 
 //---------easy code to pull and push--------------//
-
 cd <drag and drop the folder on your computer>
 git init
 git pull "url on the remote repository i.e on github"
@@ -15,6 +14,24 @@ git checkout main --alternate command
 git checkout origin master -- to commit in master branch
 git remote -v --displays pull and push commands in order
 git push -u origin master/main
+
+
+//--to work with branches
+git branch  //the name of the current branch
+git add . 
+git commit -m "All codes saved in the current branch" //the code is lost if not committed and added to the branch
+
+
+git branch NewBranch    //creates the branch
+git checkout NewBranch  //enters the branch; make sure you have commited or else code can be lost
+
+
+//when the new code is ready to be pushed to new branch
+git push -u origin NewBranch
+
+//to push everything in the current working repo to remote repo 
+git push --all  --this command creates replicates the local repo to remote
+
 
 
 
