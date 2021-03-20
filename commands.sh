@@ -17,6 +17,7 @@ git push -u origin master/main
 
 
 //--to work with branches
+git branch -al //all branches
 git branch  //the name of the current branch
 git add . 
 git commit -m "All codes saved in the current branch" //the code is lost if not committed and added to the branch
@@ -31,6 +32,17 @@ git push -u origin NewBranch
 
 //to push everything in the current working repo to remote repo 
 git push --all  --this command creates replicates the local repo to remote
+
+
+//to delete a branch remotely 
+git push origin --delete branchname
+
+
+//to delete a branch locally
+git branch -d branchname
+git push --all
+
+
 
 
 
