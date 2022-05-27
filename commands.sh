@@ -44,6 +44,8 @@ git push --all
 
 
 
+git fetch --prune 
+
 
 
 
